@@ -49,4 +49,10 @@ jobs:
         uses: hashicorp/setup-terraform@v3
       - name: Run lab
         shell: bash
-        run: bash labs/${{ matrix.lab }}/ci.sh
+        run: |
+          set -o pipefail
+          bash labs/${{ matrix.lab }}/ci.sh 2>&1 | tee lab-output.txt
+      - name: Publish output
+        if: always()
+        shell: bash
+        run: python scripts/annotate.py lab-output.txt
