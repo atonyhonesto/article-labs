@@ -1,0 +1,21 @@
+{
+  "title": "medallion-sql",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "SQL",
+    "SQLite"
+  ],
+  "runtime": "python",
+  "summary": "Bronze, silver and gold layers in portable SQL, with data-quality checks and an idempotent incremental load",
+  "articles": [
+    {
+      "title": "Snowflake and Databricks — Two Platforms, One Data Universe",
+      "url": "https://www.linkedin.com/pulse/snowflake-databricks-two-platforms-one-data-universe-tony-honesto-nzyic/"
+    },
+    {
+      "title": "Google BigQuery",
+      "url": "https://www.linkedin.com/pulse/google-bigquery-tony-honesto-w6fyc/"
+    }
+  ]
+}

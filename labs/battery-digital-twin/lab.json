@@ -1,0 +1,16 @@
+{
+  "title": "battery-digital-twin",
+  "theme": "engineering-tools",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "An equivalent-circuit battery twin that tracks state of charge and temperature, and flags when the real cell drifts from it",
+  "articles": [
+    {
+      "title": "Elysia - Battery Management Software | Digital Twin Intelligence",
+      "url": "https://www.linkedin.com/pulse/elysia-battery-management-software-digital-twin-tony-honesto-adm1c/"
+    }
+  ]
+}

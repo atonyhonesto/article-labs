@@ -1,0 +1,16 @@
+{
+  "title": "pubsub-subscriptions",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "asyncio"
+  ],
+  "runtime": "python",
+  "summary": "AppSync-style pub/sub: clients subscribe with argument filters and only receive the mutations that match",
+  "articles": [
+    {
+      "title": "Pub/Sub | AWS AppSync",
+      "url": "https://www.linkedin.com/pulse/pubsub-aws-appsync-tony-honesto-qy7cc/"
+    }
+  ]
+}

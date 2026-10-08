@@ -1,0 +1,16 @@
+{
+  "title": "twilio-sms-webhook",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "Flask"
+  ],
+  "runtime": "python",
+  "summary": "A Twilio SMS webhook that validates X-Twilio-Signature, handles opt-out keywords and replies in TwiML",
+  "articles": [
+    {
+      "title": "Twilio for Customer Engagement",
+      "url": "https://www.linkedin.com/pulse/twilio-customer-engagement-tony-honesto-hevsc/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "graph-api-paging",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Reading a 25,000-item SharePoint list through Microsoft Graph paging, throttling retries and delta queries",
+  "articles": [
+    {
+      "title": "Managing Huge Data Sets in SharePoint Online",
+      "url": "https://www.linkedin.com/pulse/managing-huge-data-sets-sharepoint-online-tony-honesto-nazyc/"
+    },
+    {
+      "title": "SharePoint — More Than Just File Storage",
+      "url": "https://www.linkedin.com/pulse/sharepoint-more-than-just-file-storage-tony-honesto-p2eic/"
+    }
+  ]
+}

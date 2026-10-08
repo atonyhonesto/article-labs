@@ -1,0 +1,17 @@
+{
+  "title": "terraform-hybrid-cloud",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Terraform",
+    "Azure",
+    "AWS"
+  ],
+  "runtime": "terraform",
+  "summary": "A Terraform layout for a hybrid SaaS platform: reusable modules, per-environment stacks, validated in CI",
+  "articles": [
+    {
+      "title": "Hybrid-Cloud SaaS Platform with Terraform",
+      "url": "https://www.linkedin.com/pulse/hybrid-cloud-saas-platform-terraform-tony-honesto-adfac/"
+    }
+  ]
+}

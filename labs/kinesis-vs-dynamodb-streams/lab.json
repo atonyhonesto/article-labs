@@ -1,0 +1,16 @@
+{
+  "title": "kinesis-vs-dynamodb-streams",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Side-by-side simulation of Kinesis shards and DynamoDB Streams: ordering, retention, fan-out and checkpointing",
+  "articles": [
+    {
+      "title": "Amazon Kinesis Streams vs DynamoDB Streams",
+      "url": "https://www.linkedin.com/pulse/amazon-kinesis-streams-vs-dynamodb-tony-honesto-ble7c/"
+    }
+  ]
+}

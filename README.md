@@ -6,7 +6,7 @@
 One folder per article. Each one runs with a single command and is tested on every push.
 
 [![labs](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml/badge.svg)](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml)
-![Labs](https://img.shields.io/badge/labs-26-6f42c1?style=flat-square)
+![Labs](https://img.shields.io/badge/labs-39-6f42c1?style=flat-square)
 [![Articles](https://img.shields.io/badge/articles-tech--articles-0A66C2?style=flat-square)](https://github.com/atonyhonesto/tech-articles)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tony_Honesto-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tony-honesto-4195023)
 
@@ -32,7 +32,7 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 ## The labs
 
 <!-- INDEX:START -->
-**26 labs.** Each folder runs on its own and is tested on every push.
+**39 labs.** Each folder runs on its own and is tested on every push.
 
 ### 🏎️ Motorsports & Sports Technology
 
@@ -69,6 +69,29 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 | [`pytorch-lap-time`](labs/pytorch-lap-time) | A small PyTorch MLP that predicts lap time, with train/validation split, early stopping and a saved model | Python · PyTorch | [PyTorch for Predictive Analytics](https://www.linkedin.com/pulse/pytorch-predictive-analytics-tony-honesto-1z0lc/) |
 | [`q-learning-pit-stops`](labs/q-learning-pit-stops) | Reinforcement learning from scratch: tabular Q-learning learns when to pit from tire wear and laps left | Python · NumPy | [PyTorch Reinforcement Learning](https://www.linkedin.com/pulse/pytorch-reinforcement-learning-tony-honesto-jh6ec/) |
 | [`rag-retrieval-pipeline`](labs/rag-retrieval-pipeline) | The retrieval pattern LangChain wraps: chunking, TF-IDF retrieval, prompt assembly with citations and a pluggable LLM | Python · stdlib | [LangChain](https://www.linkedin.com/pulse/langchain-tony-honesto-gl8oc/) |
+
+### ☁️ Cloud, Data & Integration
+
+| Lab | What it shows | Stack | Article |
+|---|---|---|---|
+| [`geotab-feed-client`](labs/geotab-feed-client) | A Geotab-style JSON-RPC client that pulls GPS data incrementally with GetFeed version tokens and session re-auth | Python · stdlib | [Geotab API Integration](https://www.linkedin.com/pulse/geotab-api-integration-tony-honesto-kzdac/) |
+| [`graph-api-paging`](labs/graph-api-paging) | Reading a 25,000-item SharePoint list through Microsoft Graph paging, throttling retries and delta queries | Python · stdlib | [Managing Huge Data Sets in SharePoint Online](https://www.linkedin.com/pulse/managing-huge-data-sets-sharepoint-online-tony-honesto-nazyc/) · [SharePoint — More Than Just File Storage](https://www.linkedin.com/pulse/sharepoint-more-than-just-file-storage-tony-honesto-p2eic/) |
+| [`itsm-sla-engine`](labs/itsm-sla-engine) | ITIL-style priority from impact x urgency, with SLA clocks that respect business hours and pause while waiting on the customer | Python · stdlib | [ITSM Platforms Are More Strategic Than Ever](https://www.linkedin.com/pulse/itsm-platforms-more-strategic-than-ever-tony-honesto-j8msc/) · [IFS assyst - Enterprise Service Delivery](https://www.linkedin.com/pulse/ifs-assyst-enterprise-service-delivery-tony-honesto-sncfc/) |
+| [`kafka-consumer-groups`](labs/kafka-consumer-groups) | A partitioned log with keyed ordering, consumer groups, offset commits and rebalancing when a consumer dies | Python · stdlib | [Apache Kafka | Real-Time Event Streaming](https://www.linkedin.com/pulse/apache-kafka-real-time-event-streaming-tony-honesto-odsrc/) |
+| [`kinesis-vs-dynamodb-streams`](labs/kinesis-vs-dynamodb-streams) | Side-by-side simulation of Kinesis shards and DynamoDB Streams: ordering, retention, fan-out and checkpointing | Python · stdlib | [Amazon Kinesis Streams vs DynamoDB Streams](https://www.linkedin.com/pulse/amazon-kinesis-streams-vs-dynamodb-tony-honesto-ble7c/) |
+| [`kml-track-analysis`](labs/kml-track-analysis) | Parses a KML track, measures distance with the haversine formula and splits a lap into timed sectors | Python · stdlib | [KML Data Into Actionable Geospatial Insights](https://www.linkedin.com/pulse/kml-data-actionable-geospatial-insights-tony-honesto-bf14c/) |
+| [`medallion-sql`](labs/medallion-sql) | Bronze, silver and gold layers in portable SQL, with data-quality checks and an idempotent incremental load | Python · SQL · SQLite | [Snowflake and Databricks — Two Platforms, One Data Universe](https://www.linkedin.com/pulse/snowflake-databricks-two-platforms-one-data-universe-tony-honesto-nzyic/) · [Google BigQuery](https://www.linkedin.com/pulse/google-bigquery-tony-honesto-w6fyc/) |
+| [`parquet-feature-store`](labs/parquet-feature-store) | Writes partitioned Parquet features, then reads them with column pruning and partition filters for model training | Python · PyArrow · Parquet | [Parquet for Analytics & Feature Consumption](https://www.linkedin.com/pulse/parquet-analytics-feature-consumption-tony-honesto-oww7c/) |
+| [`pubsub-subscriptions`](labs/pubsub-subscriptions) | AppSync-style pub/sub: clients subscribe with argument filters and only receive the mutations that match | Python · asyncio | [Pub/Sub | AWS AppSync](https://www.linkedin.com/pulse/pubsub-aws-appsync-tony-honesto-qy7cc/) |
+| [`terraform-hybrid-cloud`](labs/terraform-hybrid-cloud) | A Terraform layout for a hybrid SaaS platform: reusable modules, per-environment stacks, validated in CI | Terraform · Azure · AWS | [Hybrid-Cloud SaaS Platform with Terraform](https://www.linkedin.com/pulse/hybrid-cloud-saas-platform-terraform-tony-honesto-adfac/) |
+| [`twilio-sms-webhook`](labs/twilio-sms-webhook) | A Twilio SMS webhook that validates X-Twilio-Signature, handles opt-out keywords and replies in TwiML | Python · Flask | [Twilio for Customer Engagement](https://www.linkedin.com/pulse/twilio-customer-engagement-tony-honesto-hevsc/) |
+| [`user-journey-funnel`](labs/user-journey-funnel) | Sessionises clickstream events, builds an ordered conversion funnel and finds where users drop off | Python · pandas | [User Journey Analytics with PySpark](https://www.linkedin.com/pulse/user-journey-analytics-pyspark-tony-honesto-ckqbc/) |
+
+### 🛠️ Simulation & Engineering
+
+| Lab | What it shows | Stack | Article |
+|---|---|---|---|
+| [`battery-digital-twin`](labs/battery-digital-twin) | An equivalent-circuit battery twin that tracks state of charge and temperature, and flags when the real cell drifts from it | Python · NumPy | [Elysia - Battery Management Software | Digital Twin Intelligence](https://www.linkedin.com/pulse/elysia-battery-management-software-digital-twin-tony-honesto-adm1c/) |
 
 <!-- INDEX:END -->
 

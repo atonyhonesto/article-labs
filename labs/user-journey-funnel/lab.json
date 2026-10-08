@@ -1,0 +1,16 @@
+{
+  "title": "user-journey-funnel",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "pandas"
+  ],
+  "runtime": "python",
+  "summary": "Sessionises clickstream events, builds an ordered conversion funnel and finds where users drop off",
+  "articles": [
+    {
+      "title": "User Journey Analytics with PySpark",
+      "url": "https://www.linkedin.com/pulse/user-journey-analytics-pyspark-tony-honesto-ckqbc/"
+    }
+  ]
+}

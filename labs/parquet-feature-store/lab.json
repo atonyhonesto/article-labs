@@ -1,0 +1,17 @@
+{
+  "title": "parquet-feature-store",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "PyArrow",
+    "Parquet"
+  ],
+  "runtime": "python",
+  "summary": "Writes partitioned Parquet features, then reads them with column pruning and partition filters for model training",
+  "articles": [
+    {
+      "title": "Parquet for Analytics & Feature Consumption",
+      "url": "https://www.linkedin.com/pulse/parquet-analytics-feature-consumption-tony-honesto-oww7c/"
+    }
+  ]
+}

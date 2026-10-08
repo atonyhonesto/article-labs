@@ -1,0 +1,16 @@
+{
+  "title": "kml-track-analysis",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Parses a KML track, measures distance with the haversine formula and splits a lap into timed sectors",
+  "articles": [
+    {
+      "title": "KML Data Into Actionable Geospatial Insights",
+      "url": "https://www.linkedin.com/pulse/kml-data-actionable-geospatial-insights-tony-honesto-bf14c/"
+    }
+  ]
+}

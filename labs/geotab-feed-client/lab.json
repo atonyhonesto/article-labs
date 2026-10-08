@@ -1,0 +1,16 @@
+{
+  "title": "geotab-feed-client",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "A Geotab-style JSON-RPC client that pulls GPS data incrementally with GetFeed version tokens and session re-auth",
+  "articles": [
+    {
+      "title": "Geotab API Integration",
+      "url": "https://www.linkedin.com/pulse/geotab-api-integration-tony-honesto-kzdac/"
+    }
+  ]
+}

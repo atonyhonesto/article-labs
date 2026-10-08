@@ -1,0 +1,20 @@
+{
+  "title": "itsm-sla-engine",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "ITIL-style priority from impact x urgency, with SLA clocks that respect business hours and pause while waiting on the customer",
+  "articles": [
+    {
+      "title": "ITSM Platforms Are More Strategic Than Ever",
+      "url": "https://www.linkedin.com/pulse/itsm-platforms-more-strategic-than-ever-tony-honesto-j8msc/"
+    },
+    {
+      "title": "IFS assyst - Enterprise Service Delivery",
+      "url": "https://www.linkedin.com/pulse/ifs-assyst-enterprise-service-delivery-tony-honesto-sncfc/"
+    }
+  ]
+}

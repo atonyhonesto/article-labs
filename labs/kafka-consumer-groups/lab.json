@@ -1,0 +1,16 @@
+{
+  "title": "kafka-consumer-groups",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "A partitioned log with keyed ordering, consumer groups, offset commits and rebalancing when a consumer dies",
+  "articles": [
+    {
+      "title": "Apache Kafka | Real-Time Event Streaming",
+      "url": "https://www.linkedin.com/pulse/apache-kafka-real-time-event-streaming-tony-honesto-odsrc/"
+    }
+  ]
+}
