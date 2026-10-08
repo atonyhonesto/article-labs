@@ -48,4 +48,7 @@ def training_set(root: Path, series: str, seasons: list[int], columns: list[str]
 
 
 def size_on_disk(path: Path) -> int:
-    return sum(f.stat().st_size for f in Path(path).rglob("*") if f.is_file())
+    path = Path(path)
+    if path.is_file():
+        return path.stat().st_size
+    return sum(f.stat().st_size for f in path.rglob("*") if f.is_file())
