@@ -6,7 +6,7 @@
 One folder per article. Each one runs with a single command and is tested on every push.
 
 [![labs](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml/badge.svg)](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml)
-![Labs](https://img.shields.io/badge/labs-14-6f42c1?style=flat-square)
+![Labs](https://img.shields.io/badge/labs-26-6f42c1?style=flat-square)
 [![Articles](https://img.shields.io/badge/articles-tech--articles-0A66C2?style=flat-square)](https://github.com/atonyhonesto/tech-articles)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tony_Honesto-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tony-honesto-4195023)
 
@@ -32,7 +32,7 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 ## The labs
 
 <!-- INDEX:START -->
-**14 labs.** Each folder runs on its own and is tested on every push.
+**26 labs.** Each folder runs on its own and is tested on every push.
 
 ### 🏎️ Motorsports & Sports Technology
 
@@ -52,6 +52,23 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 | [`streaming-telemetry-windows`](labs/streaming-telemetry-windows) | Tumbling-window aggregation over an out-of-order telemetry stream, with watermarks and late-event handling | Python · stdlib | [Motorsports - Streaming Telemetry & Real-Time Performance](https://www.linkedin.com/pulse/motorsports-streaming-telemetry-real-time-tony-honesto-rfexc/) |
 | [`tire-deg-pit-window`](labs/tire-deg-pit-window) | Learns tire fall-off from lap data and recommends the pit lap that minimises race time | Python · scikit-learn · pandas | [Python Machine Learning in Motorsports](https://www.linkedin.com/pulse/python-machine-learning-motorsports-tony-honesto-aqmmc/) |
 | [`var-offside-homography`](labs/var-offside-homography) | Uses a pitch homography to draw a true offside line in camera space and decide offside in pitch metres | Python · OpenCV · NumPy | [VAR Graphics in FIFA](https://www.linkedin.com/pulse/var-graphics-fifa-tony-honesto-yo01c/) |
+
+### 🤖 AI, Machine Learning & Agents
+
+| Lab | What it shows | Stack | Article |
+|---|---|---|---|
+| [`agent-tool-loop`](labs/agent-tool-loop) | An agent loop with typed tools, a step budget and an audit trail, producing a stock analysis report from offline data | Python · stdlib | [Use Case: Agentic Workflow to Build a Stock Analysis & Reporting Agent](https://www.linkedin.com/pulse/use-case-agentic-workflow-build-stock-analysis-agent-tony-honesto-qetxc/) · [ChatGPT Agents as "Research and Execution Assistants"](https://www.linkedin.com/pulse/chatgpt-agents-research-execution-assistants-tony-honesto-pc5yc/) |
+| [`ai-eval-harness`](labs/ai-eval-harness) | Why AI projects stall: an evaluation harness with a baseline, acceptance criteria and a go/no-go report | Python · stdlib | [Why Most AI Projects Don't Deliver](https://www.linkedin.com/pulse/why-most-ai-projects-dont-deliver-tony-honesto-yuhac/) |
+| [`causal-inference-basics`](labs/causal-inference-basics) | Shows a confounded naive estimate, then recovers the true effect with regression adjustment and inverse propensity weighting | Python · NumPy · scikit-learn | [Statistics: Causal Inference](https://www.linkedin.com/pulse/statistics-causal-inference-tony-honesto-6bkyc/) |
+| [`chat-webhook-bot`](labs/chat-webhook-bot) | Slack and Webex webhook receivers with signature verification, replay protection and a pluggable LLM reply | Python · Flask | [ChatGPT + Slack](https://www.linkedin.com/pulse/chatgpt-slack-tony-honesto-jcmjc/) · [ChatGPT + Webex Webhooks](https://www.linkedin.com/pulse/chatgpt-webex-webhooks-tony-honesto-uh5tc/) |
+| [`gradient-boosting-forecast`](labs/gradient-boosting-forecast) | Gradient-boosted demand forecasting with lag features, time-based backtesting and a naive-baseline comparison | Python · scikit-learn · XGBoost-compatible | [Forecasting with XGBoost](https://www.linkedin.com/pulse/forecasting-xgboost-tony-honesto-pdwmc/) |
+| [`intent-classifier`](labs/intent-classifier) | A conversational-ML intent classifier with slot extraction and a confidence threshold that hands off to a human | Python · scikit-learn | [Conversational ML](https://www.linkedin.com/pulse/conversational-ml-tony-honesto-rsycc/) · [The Cosmopolitan's AI Rose SMS Chatbot](https://www.linkedin.com/pulse/cosmopolitans-ai-rose-sms-chatbot-tony-honesto-rxmec/) |
+| [`llm-provider-adapter`](labs/llm-provider-adapter) | One interface over Bedrock, Gemini and OpenAI-style APIs with retries, fallback and token cost accounting | Python · stdlib | [Amazon Bedrock](https://www.linkedin.com/pulse/amazon-bedrock-tony-honesto-gxmpc/) · [LLM: Gemini](https://www.linkedin.com/pulse/llm-gemini-tony-honesto-nytwc/) · [ChatGPT + Python](https://www.linkedin.com/pulse/chatgpt-python-tony-honesto-bjsac/) |
+| [`mcp-server-stdio`](labs/mcp-server-stdio) | A dependency-free Model Context Protocol server over stdio with race-data tools, plus a test client that speaks the protocol | Python · MCP · JSON-RPC | [Claude Code MCPs](https://www.linkedin.com/pulse/claude-code-mcps-tony-honesto-v3loc/) |
+| [`opencv-motion-insight`](labs/opencv-motion-insight) | Real-time motion detection with background subtraction, contour tracking and a per-frame latency budget | Python · OpenCV | [Real-Time Video Processing with OpenCV (Python)](https://www.linkedin.com/pulse/real-time-video-processing-opencv-python-tony-honesto-bmgvc/) · [Real-Time Video Insight with OpenCV + Python](https://www.linkedin.com/pulse/real-time-video-insight-opencv-python-tony-honesto-yrfic/) |
+| [`pytorch-lap-time`](labs/pytorch-lap-time) | A small PyTorch MLP that predicts lap time, with train/validation split, early stopping and a saved model | Python · PyTorch | [PyTorch for Predictive Analytics](https://www.linkedin.com/pulse/pytorch-predictive-analytics-tony-honesto-1z0lc/) |
+| [`q-learning-pit-stops`](labs/q-learning-pit-stops) | Reinforcement learning from scratch: tabular Q-learning learns when to pit from tire wear and laps left | Python · NumPy | [PyTorch Reinforcement Learning](https://www.linkedin.com/pulse/pytorch-reinforcement-learning-tony-honesto-jh6ec/) |
+| [`rag-retrieval-pipeline`](labs/rag-retrieval-pipeline) | The retrieval pattern LangChain wraps: chunking, TF-IDF retrieval, prompt assembly with citations and a pluggable LLM | Python · stdlib | [LangChain](https://www.linkedin.com/pulse/langchain-tony-honesto-gl8oc/) |
 
 <!-- INDEX:END -->
 

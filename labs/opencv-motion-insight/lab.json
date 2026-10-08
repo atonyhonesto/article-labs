@@ -1,0 +1,20 @@
+{
+  "title": "opencv-motion-insight",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "OpenCV"
+  ],
+  "runtime": "python",
+  "summary": "Real-time motion detection with background subtraction, contour tracking and a per-frame latency budget",
+  "articles": [
+    {
+      "title": "Real-Time Video Processing with OpenCV (Python)",
+      "url": "https://www.linkedin.com/pulse/real-time-video-processing-opencv-python-tony-honesto-bmgvc/"
+    },
+    {
+      "title": "Real-Time Video Insight with OpenCV + Python",
+      "url": "https://www.linkedin.com/pulse/real-time-video-insight-opencv-python-tony-honesto-yrfic/"
+    }
+  ]
+}

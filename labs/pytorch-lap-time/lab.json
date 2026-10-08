@@ -1,0 +1,16 @@
+{
+  "title": "pytorch-lap-time",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "PyTorch"
+  ],
+  "runtime": "python",
+  "summary": "A small PyTorch MLP that predicts lap time, with train/validation split, early stopping and a saved model",
+  "articles": [
+    {
+      "title": "PyTorch for Predictive Analytics",
+      "url": "https://www.linkedin.com/pulse/pytorch-predictive-analytics-tony-honesto-1z0lc/"
+    }
+  ]
+}

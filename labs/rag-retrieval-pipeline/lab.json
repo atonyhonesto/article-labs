@@ -1,0 +1,16 @@
+{
+  "title": "rag-retrieval-pipeline",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "The retrieval pattern LangChain wraps: chunking, TF-IDF retrieval, prompt assembly with citations and a pluggable LLM",
+  "articles": [
+    {
+      "title": "LangChain",
+      "url": "https://www.linkedin.com/pulse/langchain-tony-honesto-gl8oc/"
+    }
+  ]
+}

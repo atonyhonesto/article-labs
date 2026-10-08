@@ -1,0 +1,17 @@
+{
+  "title": "causal-inference-basics",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "NumPy",
+    "scikit-learn"
+  ],
+  "runtime": "python",
+  "summary": "Shows a confounded naive estimate, then recovers the true effect with regression adjustment and inverse propensity weighting",
+  "articles": [
+    {
+      "title": "Statistics: Causal Inference",
+      "url": "https://www.linkedin.com/pulse/statistics-causal-inference-tony-honesto-6bkyc/"
+    }
+  ]
+}

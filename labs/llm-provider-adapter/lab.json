@@ -1,0 +1,24 @@
+{
+  "title": "llm-provider-adapter",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "One interface over Bedrock, Gemini and OpenAI-style APIs with retries, fallback and token cost accounting",
+  "articles": [
+    {
+      "title": "Amazon Bedrock",
+      "url": "https://www.linkedin.com/pulse/amazon-bedrock-tony-honesto-gxmpc/"
+    },
+    {
+      "title": "LLM: Gemini",
+      "url": "https://www.linkedin.com/pulse/llm-gemini-tony-honesto-nytwc/"
+    },
+    {
+      "title": "ChatGPT + Python",
+      "url": "https://www.linkedin.com/pulse/chatgpt-python-tony-honesto-bjsac/"
+    }
+  ]
+}

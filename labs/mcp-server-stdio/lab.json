@@ -1,0 +1,17 @@
+{
+  "title": "mcp-server-stdio",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "MCP",
+    "JSON-RPC"
+  ],
+  "runtime": "python",
+  "summary": "A dependency-free Model Context Protocol server over stdio with race-data tools, plus a test client that speaks the protocol",
+  "articles": [
+    {
+      "title": "Claude Code MCPs",
+      "url": "https://www.linkedin.com/pulse/claude-code-mcps-tony-honesto-v3loc/"
+    }
+  ]
+}

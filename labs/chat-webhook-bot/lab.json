@@ -1,0 +1,20 @@
+{
+  "title": "chat-webhook-bot",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "Flask"
+  ],
+  "runtime": "python",
+  "summary": "Slack and Webex webhook receivers with signature verification, replay protection and a pluggable LLM reply",
+  "articles": [
+    {
+      "title": "ChatGPT + Slack",
+      "url": "https://www.linkedin.com/pulse/chatgpt-slack-tony-honesto-jcmjc/"
+    },
+    {
+      "title": "ChatGPT + Webex Webhooks",
+      "url": "https://www.linkedin.com/pulse/chatgpt-webex-webhooks-tony-honesto-uh5tc/"
+    }
+  ]
+}

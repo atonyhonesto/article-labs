@@ -1,0 +1,20 @@
+{
+  "title": "intent-classifier",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "scikit-learn"
+  ],
+  "runtime": "python",
+  "summary": "A conversational-ML intent classifier with slot extraction and a confidence threshold that hands off to a human",
+  "articles": [
+    {
+      "title": "Conversational ML",
+      "url": "https://www.linkedin.com/pulse/conversational-ml-tony-honesto-rsycc/"
+    },
+    {
+      "title": "The Cosmopolitan's AI Rose SMS Chatbot",
+      "url": "https://www.linkedin.com/pulse/cosmopolitans-ai-rose-sms-chatbot-tony-honesto-rxmec/"
+    }
+  ]
+}

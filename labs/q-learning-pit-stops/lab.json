@@ -1,0 +1,16 @@
+{
+  "title": "q-learning-pit-stops",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Reinforcement learning from scratch: tabular Q-learning learns when to pit from tire wear and laps left",
+  "articles": [
+    {
+      "title": "PyTorch Reinforcement Learning",
+      "url": "https://www.linkedin.com/pulse/pytorch-reinforcement-learning-tony-honesto-jh6ec/"
+    }
+  ]
+}

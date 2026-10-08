@@ -1,0 +1,16 @@
+{
+  "title": "ai-eval-harness",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Why AI projects stall: an evaluation harness with a baseline, acceptance criteria and a go/no-go report",
+  "articles": [
+    {
+      "title": "Why Most AI Projects Don't Deliver",
+      "url": "https://www.linkedin.com/pulse/why-most-ai-projects-dont-deliver-tony-honesto-yuhac/"
+    }
+  ]
+}

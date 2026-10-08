@@ -1,0 +1,17 @@
+{
+  "title": "gradient-boosting-forecast",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "scikit-learn",
+    "XGBoost-compatible"
+  ],
+  "runtime": "python",
+  "summary": "Gradient-boosted demand forecasting with lag features, time-based backtesting and a naive-baseline comparison",
+  "articles": [
+    {
+      "title": "Forecasting with XGBoost",
+      "url": "https://www.linkedin.com/pulse/forecasting-xgboost-tony-honesto-pdwmc/"
+    }
+  ]
+}

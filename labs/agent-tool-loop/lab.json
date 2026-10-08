@@ -1,0 +1,20 @@
+{
+  "title": "agent-tool-loop",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "An agent loop with typed tools, a step budget and an audit trail, producing a stock analysis report from offline data",
+  "articles": [
+    {
+      "title": "Use Case: Agentic Workflow to Build a Stock Analysis & Reporting Agent",
+      "url": "https://www.linkedin.com/pulse/use-case-agentic-workflow-build-stock-analysis-agent-tony-honesto-qetxc/"
+    },
+    {
+      "title": "ChatGPT Agents as \"Research and Execution Assistants\"",
+      "url": "https://www.linkedin.com/pulse/chatgpt-agents-research-execution-assistants-tony-honesto-pc5yc/"
+    }
+  ]
+}
