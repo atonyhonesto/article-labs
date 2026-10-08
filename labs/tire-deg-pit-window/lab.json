@@ -1,0 +1,17 @@
+{
+  "title": "tire-deg-pit-window",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "scikit-learn",
+    "pandas"
+  ],
+  "runtime": "python",
+  "summary": "Learns tire fall-off from lap data and recommends the pit lap that minimises race time",
+  "articles": [
+    {
+      "title": "Python Machine Learning in Motorsports",
+      "url": "https://www.linkedin.com/pulse/python-machine-learning-motorsports-tony-honesto-aqmmc/"
+    }
+  ]
+}

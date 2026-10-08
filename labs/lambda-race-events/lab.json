@@ -1,0 +1,16 @@
+{
+  "title": "lambda-race-events",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "AWS Lambda pattern"
+  ],
+  "runtime": "python",
+  "summary": "Event-driven Lambda handlers for timing-loop and file-landed events, with idempotency and partial-batch failure",
+  "articles": [
+    {
+      "title": "AWS Lambda",
+      "url": "https://www.linkedin.com/pulse/aws-lambda-tony-honesto-5risc/"
+    }
+  ]
+}

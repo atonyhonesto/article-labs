@@ -1,0 +1,20 @@
+{
+  "title": "fuel-burn-bar",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Rebuilds a broadcast 'burn bar': live fuel use per lap versus the target needed to reach the finish",
+  "articles": [
+    {
+      "title": "Amazon Prime Video: Burn Bar, Tech behind the display",
+      "url": "https://www.linkedin.com/pulse/amazon-prime-video-burn-bar-tech-behind-display-tony-honesto-p6mgc/"
+    },
+    {
+      "title": "Prime Vision + Next Gen Stats",
+      "url": "https://www.linkedin.com/pulse/prime-vision-next-gen-stats-tony-honesto-7yt8c/"
+    }
+  ]
+}

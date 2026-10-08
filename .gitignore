@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+target/
+bin/
+obj/
+.terraform/
+*.tfstate*
+out/
+*.parquet

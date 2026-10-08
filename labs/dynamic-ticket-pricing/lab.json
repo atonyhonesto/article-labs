@@ -1,0 +1,16 @@
+{
+  "title": "dynamic-ticket-pricing",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Fits a price-demand curve per section and picks revenue-maximising prices inside floor and ceiling guardrails",
+  "articles": [
+    {
+      "title": "ML Pipelines Powering Dynamic Ticket Pricing",
+      "url": "https://www.linkedin.com/pulse/ml-pipelines-powering-dynamic-ticket-pricing-tony-honesto-8kcrc/"
+    }
+  ]
+}

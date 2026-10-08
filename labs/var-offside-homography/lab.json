@@ -1,0 +1,17 @@
+{
+  "title": "var-offside-homography",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "OpenCV",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Uses a pitch homography to draw a true offside line in camera space and decide offside in pitch metres",
+  "articles": [
+    {
+      "title": "VAR Graphics in FIFA",
+      "url": "https://www.linkedin.com/pulse/var-graphics-fifa-tony-honesto-yo01c/"
+    }
+  ]
+}

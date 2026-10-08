@@ -1,0 +1,8 @@
+{"Records": [
+  {"messageId": "m1", "body": "{\"car\": \"24\", \"lap\": 1, \"time_s\": 31.204}"},
+  {"messageId": "m2", "body": "{\"car\": \"5\", \"lap\": 1, \"time_s\": 31.118}"},
+  {"messageId": "m3", "body": "{\"car\": \"24\", \"lap\": 1, \"time_s\": 31.204}"},
+  {"messageId": "m4", "body": "not json"},
+  {"messageId": "m5", "body": "{\"car\": \"5\", \"lap\": 2, \"time_s\": 30.987}"},
+  {"messageId": "m6", "body": "{\"car\": \"11\", \"lap\": 0, \"time_s\": 30.5}"}
+]}

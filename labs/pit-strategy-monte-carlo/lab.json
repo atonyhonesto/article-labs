@@ -1,0 +1,20 @@
+{
+  "title": "pit-strategy-monte-carlo",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Monte Carlo of one-stop vs two-stop strategies under random cautions, reporting expected finish and risk",
+  "articles": [
+    {
+      "title": "Winning in NASCAR with AI/ML",
+      "url": "https://www.linkedin.com/pulse/winning-nascar-aiml-tony-honesto-tkdvc/"
+    },
+    {
+      "title": "Motorsports competitive edge via AI use cases",
+      "url": "https://www.linkedin.com/pulse/motorsports-competitive-edge-via-ai-use-cases-tony-honesto-d2j3c/"
+    }
+  ]
+}

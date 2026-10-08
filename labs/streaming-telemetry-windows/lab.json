@@ -1,0 +1,16 @@
+{
+  "title": "streaming-telemetry-windows",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Tumbling-window aggregation over an out-of-order telemetry stream, with watermarks and late-event handling",
+  "articles": [
+    {
+      "title": "Motorsports - Streaming Telemetry & Real-Time Performance",
+      "url": "https://www.linkedin.com/pulse/motorsports-streaming-telemetry-real-time-tony-honesto-rfexc/"
+    }
+  ]
+}

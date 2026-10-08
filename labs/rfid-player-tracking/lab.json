@@ -1,0 +1,16 @@
+{
+  "title": "rfid-player-tracking",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Turns 10 Hz RFID location pings into distance, top speed, sprints and acceleration per player",
+  "articles": [
+    {
+      "title": "Zebra Technologies MotionWorks RFID",
+      "url": "https://www.linkedin.com/pulse/zebra-technologies-motionworks-rfid-tony-honesto-pa5mc/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "stint-pace-analyzer",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "pandas"
+  ],
+  "runtime": "python",
+  "summary": "Splits laps into stints, removes in/out laps and fuel effect, and compares drivers on corrected pace",
+  "articles": [
+    {
+      "title": "F1 Lap Time Analyzer — Python, Streamlit & FastF1 in Action",
+      "url": "https://www.linkedin.com/pulse/f1-lap-time-analyzer-python-streamlit-fastf1-action-tony-honesto-qlmgc/"
+    },
+    {
+      "title": "ATLAS Data-Driven Race Strategy",
+      "url": "https://www.linkedin.com/pulse/atlas-data-driven-race-strategy-tony-honesto-5s2gc/"
+    }
+  ]
+}

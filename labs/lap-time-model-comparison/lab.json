@@ -1,0 +1,16 @@
+{
+  "title": "lap-time-model-comparison",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "scikit-learn"
+  ],
+  "runtime": "python",
+  "summary": "Linear, random forest and gradient boosting models compared on lap-time prediction with grouped cross-validation",
+  "articles": [
+    {
+      "title": "Machine Learning Approaches for Motorsports Competitive Advantage",
+      "url": "https://www.linkedin.com/pulse/machine-learning-approaches-motorsports-competitive-tony-honesto-agstc/"
+    }
+  ]
+}

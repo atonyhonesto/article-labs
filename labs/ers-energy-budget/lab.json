@@ -1,0 +1,16 @@
+{
+  "title": "ers-energy-budget",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "stdlib"
+  ],
+  "runtime": "python",
+  "summary": "Simulates a lap's battery state of charge with and without MGU-H recovery to show what the 2026 rules change",
+  "articles": [
+    {
+      "title": "MGU-H Removed from F1 Power Units in 2026",
+      "url": "https://www.linkedin.com/pulse/mgu-h-removed-from-f1-power-units-2026-tony-honesto-oahtc/"
+    }
+  ]
+}

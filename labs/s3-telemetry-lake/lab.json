@@ -1,0 +1,16 @@
+{
+  "title": "s3-telemetry-lake",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "Amazon S3 pattern"
+  ],
+  "runtime": "python",
+  "summary": "Partitioned telemetry key layout, prefix queries and a per-team sync that only copies each team its own car",
+  "articles": [
+    {
+      "title": "Amazon S3",
+      "url": "https://www.linkedin.com/pulse/amazon-s3-tony-honesto-o8hmc/"
+    }
+  ]
+}

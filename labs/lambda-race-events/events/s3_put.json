@@ -1,0 +1,8 @@
+{"Records": [
+  {"eventSource": "aws:s3", "eventName": "ObjectCreated:Put",
+   "s3": {"bucket": {"name": "race-weekend-raw"},
+          "object": {"key": "2026/results/race+42/official.csv", "eTag": "a1b2"}}},
+  {"eventSource": "aws:s3", "eventName": "ObjectCreated:Put",
+   "s3": {"bucket": {"name": "race-weekend-raw"},
+          "object": {"key": "2026/results/race+42/official.csv", "eTag": "a1b2"}}}
+]}

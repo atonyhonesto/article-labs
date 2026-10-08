@@ -1,0 +1,16 @@
+{
+  "title": "athlete-evaluation-pipeline",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "scikit-learn"
+  ],
+  "runtime": "python",
+  "summary": "An end-to-end scikit-learn pipeline (impute, scale, encode, model) scoring athlete prospects with leakage-safe CV",
+  "articles": [
+    {
+      "title": "ML Pipelines for Athlete Evaluation",
+      "url": "https://www.linkedin.com/pulse/ml-pipelines-athlete-evaluation-tony-honesto-q1vsc/"
+    }
+  ]
+}

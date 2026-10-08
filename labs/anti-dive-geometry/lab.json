@@ -1,0 +1,20 @@
+{
+  "title": "anti-dive-geometry",
+  "theme": "motorsports-sports",
+  "stack": [
+    "Python",
+    "NumPy"
+  ],
+  "runtime": "python",
+  "summary": "Computes front anti-dive percentage from suspension pickup points and shows how geometry changes pitch under braking",
+  "articles": [
+    {
+      "title": "Anti-Dive & Downwash Geometry in F1",
+      "url": "https://www.linkedin.com/pulse/anti-dive-downwash-geometry-f1-tony-honesto-b5xlc/"
+    },
+    {
+      "title": "Helmut Schmidt University - Vehicle Dynamics Certificate",
+      "url": "https://www.linkedin.com/pulse/helmut-schmidt-university-vehicle-dynamics-tony-honesto-lanoc/"
+    }
+  ]
+}
