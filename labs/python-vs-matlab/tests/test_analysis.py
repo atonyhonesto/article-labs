@@ -14,8 +14,8 @@ class AnalysisTests(unittest.TestCase):
         self.assertAlmostEqual(analysis.results["tau_s"], 3.2, delta=0.1)
 
     def test_matlab_file_mirrors_python(self):
-        m = (analysis.__file__.replace(".py", ".m"))
-        text = open(m).read()
+        from pathlib import Path
+        text = Path(analysis.__file__).with_suffix(".m").read_text()
         for fn in ("trapz", "fft", "polyfit"):
             self.assertIn(fn, text)
         self.assertTrue(math.isfinite(analysis.results["mean_speed"]))

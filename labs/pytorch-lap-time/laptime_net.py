@@ -21,7 +21,7 @@ def make_data(n: int = 4000, seed: int = 0) -> tuple[np.ndarray, np.ndarray]:
     fuel = rng.uniform(0, 100, n).astype(np.float32)
     temp = rng.uniform(20, 50, n).astype(np.float32)
     soft = rng.integers(0, 2, n).astype(np.float32)
-    cliff = np.where((soft == 1) & (age > 18), 0.12 * (age - 18) ** 1.3, 0.0)
+    cliff = np.where((soft == 1) & (age > 18), 0.12 * np.clip(age - 18, 0, None) ** 1.3, 0.0)
     y = 90 - 0.7 * soft + 0.04 * age + 0.03 * fuel + 0.015 * (temp - 35) * age / 10 + cliff + rng.normal(0, 0.1, n)
     return np.stack([age, fuel, temp, soft], axis=1), y.astype(np.float32)
 

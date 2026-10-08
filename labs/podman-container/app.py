@@ -1,6 +1,8 @@
 """A tiny status service: GET / returns JSON, GET /health for the container health check."""
 import json
 import os
+import signal
+import sys
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 
@@ -24,4 +26,6 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    # As PID 1 in a container, Python gets no default SIGTERM handling: exit cleanly on stop.
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
     HTTPServer(("0.0.0.0", int(os.environ.get("PORT", "8080"))), Handler).serve_forever()

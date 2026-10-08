@@ -13,5 +13,5 @@ echo "== same build with samples/BadExample.java added:"
 if (cd "$tmp" && mvn -B -o checkstyle:check > build.log 2>&1); then
   echo "expected the gate to fail"; exit 1
 fi
-grep -E '^\[(WARN|WARNING|ERROR)\] .*BadExample' "$tmp/build.log" | sed -E 's#^.*/(BadExample\.java)#  \1#' | sort -u
+grep -E '^\[WARN(ING)?\] .*BadExample\.java:[0-9]+' "$tmp/build.log" | sed -E 's#^.*/(BadExample\.java)#  \1#' | sort -t: -k2,2n -k3,3n
 echo "== gate failed as expected"
