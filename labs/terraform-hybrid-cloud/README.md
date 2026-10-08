@@ -24,7 +24,7 @@ bash labs/terraform-hybrid-cloud/ci.sh   # validate every env, then policy tests
 cd envs/dev && terraform init && terraform plan
 ```
 
-Real output:
+Real output (from this lab's CI run):
 
 ```text
 == envs/dev/
@@ -33,10 +33,15 @@ Success! The configuration is valid.
 == envs/prod/
 Success! The configuration is valid.
 
-test_every_environment_tags_its_resources ... ok
-test_every_provider_is_version_pinned ... ok
-test_prod_is_multi_az_and_not_on_basic_sku ... ok
-test_web_app_enforces_https_and_tls12 ... ok
+test_every_environment_tags_its_resources (test_policy.PolicyTests.test_every_environment_tags_its_resources) ... ok
+test_every_provider_is_version_pinned (test_policy.PolicyTests.test_every_provider_is_version_pinned) ... ok
+test_prod_is_multi_az_and_not_on_basic_sku (test_policy.PolicyTests.test_prod_is_multi_az_and_not_on_basic_sku) ... ok
+test_web_app_enforces_https_and_tls12 (test_policy.PolicyTests.test_web_app_enforces_https_and_tls12) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
 ```
 
 ## What's in here
