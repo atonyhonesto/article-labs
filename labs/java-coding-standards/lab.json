@@ -1,0 +1,18 @@
+{
+  "title": "java-coding-standards",
+  "theme": "software-architecture",
+  "stack": [
+    "Java 21",
+    "Maven",
+    "Checkstyle",
+    "JUnit 5"
+  ],
+  "runtime": "java",
+  "summary": "A Maven build with a Checkstyle quality gate and JUnit tests that fails on the issues SonarQube would flag",
+  "articles": [
+    {
+      "title": "Enforcing Java Coding Standards with SONAR (SonarQube)",
+      "url": "https://www.linkedin.com/pulse/enforcing-java-coding-standards-sonar-sonarqube-tony-honesto-ku4lc/"
+    }
+  ]
+}

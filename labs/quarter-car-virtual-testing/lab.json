@@ -1,0 +1,25 @@
+{
+  "title": "quarter-car-virtual-testing",
+  "theme": "engineering-tools",
+  "stack": [
+    "Python",
+    "SciPy",
+    "ODE simulation"
+  ],
+  "runtime": "python",
+  "summary": "A quarter-car model run over a bump and rough road to sweep damper settings: ride comfort vs. road holding, before any hardware exists",
+  "articles": [
+    {
+      "title": "Virtual Testing with MSC Adams",
+      "url": "https://www.linkedin.com/pulse/virtual-testing-msc-adams-tony-honesto-wwq4c/"
+    },
+    {
+      "title": "Helmut Schmidt University - Vehicle Dynamics Certificate",
+      "url": "https://www.linkedin.com/pulse/helmut-schmidt-university-vehicle-dynamics-tony-honesto-lanoc/"
+    },
+    {
+      "title": "MATLAB and Simulink",
+      "url": "https://www.linkedin.com/pulse/matlab-simulink-tony-honesto-ltrfc/"
+    }
+  ]
+}

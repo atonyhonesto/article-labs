@@ -1,0 +1,17 @@
+{
+  "title": "xmpp-routing",
+  "theme": "cloud-data-integration",
+  "stack": [
+    "Python",
+    "XMPP",
+    "XML stanzas"
+  ],
+  "runtime": "python",
+  "summary": "Two federated XMPP servers routing message and presence stanzas by JID, with roster subscriptions and offline delivery",
+  "articles": [
+    {
+      "title": "XMPP — Real-Time, Federated Communication",
+      "url": "https://www.linkedin.com/pulse/xmpp-real-time-federated-communication-tony-honesto-rdq1c/"
+    }
+  ]
+}

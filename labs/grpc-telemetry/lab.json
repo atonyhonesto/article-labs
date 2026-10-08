@@ -1,0 +1,17 @@
+{
+  "title": "grpc-telemetry",
+  "theme": "software-architecture",
+  "stack": [
+    "Python",
+    "gRPC",
+    "Protocol Buffers"
+  ],
+  "runtime": "python",
+  "summary": "A .proto contract with unary and server-streaming calls, deadlines, and a size comparison of protobuf vs. JSON",
+  "articles": [
+    {
+      "title": "gRPC Still Matters",
+      "url": "https://www.linkedin.com/pulse/grpc-still-matters-tony-honesto-rdexc/"
+    }
+  ]
+}

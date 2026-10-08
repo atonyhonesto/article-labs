@@ -1,0 +1,17 @@
+{
+  "title": "podman-container",
+  "theme": "software-architecture",
+  "stack": [
+    "Podman",
+    "Containerfile",
+    "Python"
+  ],
+  "runtime": "podman",
+  "summary": "A rootless, non-root, health-checked container built and run with Podman in CI, plus a Containerfile policy linter",
+  "articles": [
+    {
+      "title": "Podman - Containerized Deployment & Secure DevOps Pipelines",
+      "url": "https://www.linkedin.com/pulse/podman-containerized-deployment-secure-devops-tony-honesto-wfryc/"
+    }
+  ]
+}

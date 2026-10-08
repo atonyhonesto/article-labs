@@ -1,0 +1,18 @@
+{
+  "title": "spring-boot-api",
+  "theme": "software-architecture",
+  "stack": [
+    "Java 21",
+    "Spring Boot 3",
+    "Maven",
+    "JUnit 5"
+  ],
+  "runtime": "java",
+  "summary": "A small Spring Boot REST API with validation, a service layer, error handling and MockMvc tests",
+  "articles": [
+    {
+      "title": "Spring Boot",
+      "url": "https://www.linkedin.com/pulse/spring-boot-tony-honesto-ijwqc/"
+    }
+  ]
+}

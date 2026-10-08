@@ -1,0 +1,4 @@
+# A race team that only protects its admin area
+User-agent: *
+Disallow: /admin/
+Disallow: /telemetry/raw/

@@ -1,0 +1,18 @@
+# A publisher that blocks AI training crawlers but welcomes search
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: *
+Disallow: /account/
+Allow: /
+
+Sitemap: https://news.example/sitemap.xml

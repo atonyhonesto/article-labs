@@ -1,0 +1,16 @@
+{
+  "title": "qr-codes",
+  "theme": "engineering-tools",
+  "stack": [
+    "Python",
+    "OpenCV"
+  ],
+  "runtime": "python",
+  "summary": "Generates QR codes at each error-correction level, then damages them to show how much each level can survive",
+  "articles": [
+    {
+      "title": "Python + QR Codes",
+      "url": "https://www.linkedin.com/pulse/python-qr-codes-tony-honesto-98olc/"
+    }
+  ]
+}

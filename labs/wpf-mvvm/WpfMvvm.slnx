@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LapTimer.Core/LapTimer.Core.csproj" />
+    <Project Path="src/LapTimer.App/LapTimer.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LapTimer.Tests/LapTimer.Tests.csproj" />
+  </Folder>
+</Solution>

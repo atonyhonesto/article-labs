@@ -6,7 +6,7 @@
 One folder per article. Each one runs with a single command and is tested on every push.
 
 [![labs](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml/badge.svg)](https://github.com/atonyhonesto/article-labs/actions/workflows/labs.yml)
-![Labs](https://img.shields.io/badge/labs-39-6f42c1?style=flat-square)
+![Labs](https://img.shields.io/badge/labs-50-6f42c1?style=flat-square)
 [![Articles](https://img.shields.io/badge/articles-tech--articles-0A66C2?style=flat-square)](https://github.com/atonyhonesto/tech-articles)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tony_Honesto-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/tony-honesto-4195023)
 
@@ -32,7 +32,7 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 ## The labs
 
 <!-- INDEX:START -->
-**39 labs.** Each folder runs on its own and is tested on every push.
+**50 labs.** Each folder runs on its own and is tested on every push.
 
 ### 🏎️ Motorsports & Sports Technology
 
@@ -69,6 +69,7 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 | [`pytorch-lap-time`](labs/pytorch-lap-time) | A small PyTorch MLP that predicts lap time, with train/validation split, early stopping and a saved model | Python · PyTorch | [PyTorch for Predictive Analytics](https://www.linkedin.com/pulse/pytorch-predictive-analytics-tony-honesto-1z0lc/) |
 | [`q-learning-pit-stops`](labs/q-learning-pit-stops) | Reinforcement learning from scratch: tabular Q-learning learns when to pit from tire wear and laps left | Python · NumPy | [PyTorch Reinforcement Learning](https://www.linkedin.com/pulse/pytorch-reinforcement-learning-tony-honesto-jh6ec/) |
 | [`rag-retrieval-pipeline`](labs/rag-retrieval-pipeline) | The retrieval pattern LangChain wraps: chunking, TF-IDF retrieval, prompt assembly with citations and a pluggable LLM | Python · stdlib | [LangChain](https://www.linkedin.com/pulse/langchain-tony-honesto-gl8oc/) |
+| [`robots-txt-audit`](labs/robots-txt-audit) | Audits robots.txt files for which AI crawlers (GPTBot, ClaudeBot, CCBot, Google-Extended...) are allowed, blocked or forgotten | Python · urllib.robotparser | [Age of AI Scrapers - Robots.txt](https://www.linkedin.com/pulse/age-ai-scrapers-robotstxt-tony-honesto-m1h4c/) |
 
 ### ☁️ Cloud, Data & Integration
 
@@ -86,12 +87,27 @@ Bigger companion projects live in their own repos: [race-speed-inference](https:
 | [`terraform-hybrid-cloud`](labs/terraform-hybrid-cloud) | A Terraform layout for a hybrid SaaS platform: reusable modules, per-environment stacks, validated in CI | Terraform · Azure · AWS | [Hybrid-Cloud SaaS Platform with Terraform](https://www.linkedin.com/pulse/hybrid-cloud-saas-platform-terraform-tony-honesto-adfac/) |
 | [`twilio-sms-webhook`](labs/twilio-sms-webhook) | A Twilio SMS webhook that validates X-Twilio-Signature, handles opt-out keywords and replies in TwiML | Python · Flask | [Twilio for Customer Engagement](https://www.linkedin.com/pulse/twilio-customer-engagement-tony-honesto-hevsc/) |
 | [`user-journey-funnel`](labs/user-journey-funnel) | Sessionises clickstream events, builds an ordered conversion funnel and finds where users drop off | Python · pandas | [User Journey Analytics with PySpark](https://www.linkedin.com/pulse/user-journey-analytics-pyspark-tony-honesto-ckqbc/) |
+| [`xmpp-routing`](labs/xmpp-routing) | Two federated XMPP servers routing message and presence stanzas by JID, with roster subscriptions and offline delivery | Python · XMPP · XML stanzas | [XMPP — Real-Time, Federated Communication](https://www.linkedin.com/pulse/xmpp-real-time-federated-communication-tony-honesto-rdq1c/) |
+
+### 🧱 Software Architecture & Engineering Practice
+
+| Lab | What it shows | Stack | Article |
+|---|---|---|---|
+| [`grpc-telemetry`](labs/grpc-telemetry) | A .proto contract with unary and server-streaming calls, deadlines, and a size comparison of protobuf vs. JSON | Python · gRPC · Protocol Buffers | [gRPC Still Matters](https://www.linkedin.com/pulse/grpc-still-matters-tony-honesto-rdexc/) |
+| [`java-coding-standards`](labs/java-coding-standards) | A Maven build with a Checkstyle quality gate and JUnit tests that fails on the issues SonarQube would flag | Java 21 · Maven · Checkstyle · JUnit 5 | [Enforcing Java Coding Standards with SONAR (SonarQube)](https://www.linkedin.com/pulse/enforcing-java-coding-standards-sonar-sonarqube-tony-honesto-ku4lc/) |
+| [`podman-container`](labs/podman-container) | A rootless, non-root, health-checked container built and run with Podman in CI, plus a Containerfile policy linter | Podman · Containerfile · Python | [Podman - Containerized Deployment & Secure DevOps Pipelines](https://www.linkedin.com/pulse/podman-containerized-deployment-secure-devops-tony-honesto-wfryc/) |
+| [`spring-boot-api`](labs/spring-boot-api) | A small Spring Boot REST API with validation, a service layer, error handling and MockMvc tests | Java 21 · Spring Boot 3 · Maven · JUnit 5 | [Spring Boot](https://www.linkedin.com/pulse/spring-boot-tony-honesto-ijwqc/) |
+| [`wpf-mvvm`](labs/wpf-mvvm) | A WPF lap-timer app built MVVM-style: the view model is plain C# and unit-tested without a window | C# · .NET 10 · WPF · MVVM · xUnit | [Windows Desktop Applications with WPF](https://www.linkedin.com/pulse/windows-desktop-applications-wpf-tony-honesto-h0kmc/) |
 
 ### 🛠️ Simulation & Engineering
 
 | Lab | What it shows | Stack | Article |
 |---|---|---|---|
 | [`battery-digital-twin`](labs/battery-digital-twin) | An equivalent-circuit battery twin that tracks state of charge and temperature, and flags when the real cell drifts from it | Python · NumPy | [Elysia - Battery Management Software | Digital Twin Intelligence](https://www.linkedin.com/pulse/elysia-battery-management-software-digital-twin-tony-honesto-adm1c/) |
+| [`packaging-box-optimizer`](labs/packaging-box-optimizer) | Right-sized boxes vs. a fixed carton catalog: corrugate, void fill and dimensional-weight savings over a day of orders | Python | [AI-Enhanced On-Demand Packaging with Packsize](https://www.linkedin.com/pulse/ai-enhanced-on-demand-packaging-packsize-tony-honesto-d6qmc/) |
+| [`python-vs-matlab`](labs/python-vs-matlab) | The same signal-processing task in Python and MATLAB syntax, run side by side (Octave in CI) with matching results | Python · NumPy · SciPy · GNU Octave | [Python vs MATLAB](https://www.linkedin.com/pulse/python-vs-matlab-tony-honesto-4bg9c/) · [MathWorks - MATLAB Onramp - Interactive Introduction](https://www.linkedin.com/pulse/matlab-onramp-free-interactive-introduction-tony-honesto-yg5pc/) |
+| [`qr-codes`](labs/qr-codes) | Generates QR codes at each error-correction level, then damages them to show how much each level can survive | Python · OpenCV | [Python + QR Codes](https://www.linkedin.com/pulse/python-qr-codes-tony-honesto-98olc/) |
+| [`quarter-car-virtual-testing`](labs/quarter-car-virtual-testing) | A quarter-car model run over a bump and rough road to sweep damper settings: ride comfort vs. road holding, before any hardware exists | Python · SciPy · ODE simulation | [Virtual Testing with MSC Adams](https://www.linkedin.com/pulse/virtual-testing-msc-adams-tony-honesto-wwq4c/) · [Helmut Schmidt University - Vehicle Dynamics Certificate](https://www.linkedin.com/pulse/helmut-schmidt-university-vehicle-dynamics-tony-honesto-lanoc/) · [MATLAB and Simulink](https://www.linkedin.com/pulse/matlab-simulink-tony-honesto-ltrfc/) |
 
 <!-- INDEX:END -->
 

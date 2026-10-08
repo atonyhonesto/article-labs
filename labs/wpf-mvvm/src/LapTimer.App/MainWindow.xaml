@@ -1,0 +1,32 @@
+<Window x:Class="LapTimer.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lap Timer" Width="360" Height="420" Background="#0B1F3A">
+  <!-- No event handlers: every control binds to the view model. -->
+  <DockPanel Margin="16">
+    <StackPanel DockPanel.Dock="Top">
+      <TextBlock Text="{Binding Status}" Foreground="White" FontSize="18" FontWeight="Bold" />
+      <StackPanel Orientation="Horizontal" Margin="0,8">
+        <TextBlock Text="Car #" Foreground="#9EC5F8" VerticalAlignment="Center" />
+        <TextBox Text="{Binding CarNumber, UpdateSourceTrigger=PropertyChanged}" Width="48" Margin="6,0" />
+      </StackPanel>
+      <StackPanel Orientation="Horizontal">
+        <Button Content="Start" Command="{Binding StartCommand}" Width="80" Margin="0,0,6,0" />
+        <Button Content="Lap" Command="{Binding LapCommand}" Width="80" Margin="0,0,6,0" />
+        <Button Content="Stop" Command="{Binding StopCommand}" Width="80" />
+      </StackPanel>
+      <TextBlock Margin="0,12,0,4" Foreground="#F2A900" FontSize="16">
+        <Run Text="Best " /><Run Text="{Binding BestLap, Mode=OneWay}" />
+      </TextBlock>
+    </StackPanel>
+    <ListView ItemsSource="{Binding Laps}">
+      <ListView.View>
+        <GridView>
+          <GridViewColumn Header="Lap" DisplayMemberBinding="{Binding Lap}" Width="50" />
+          <GridViewColumn Header="Time" DisplayMemberBinding="{Binding Display}" Width="120" />
+          <GridViewColumn Header="Best" DisplayMemberBinding="{Binding IsBest}" Width="60" />
+        </GridView>
+      </ListView.View>
+    </ListView>
+  </DockPanel>
+</Window>

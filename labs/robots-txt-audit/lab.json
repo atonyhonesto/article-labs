@@ -1,0 +1,16 @@
+{
+  "title": "robots-txt-audit",
+  "theme": "ai-ml",
+  "stack": [
+    "Python",
+    "urllib.robotparser"
+  ],
+  "runtime": "python",
+  "summary": "Audits robots.txt files for which AI crawlers (GPTBot, ClaudeBot, CCBot, Google-Extended...) are allowed, blocked or forgotten",
+  "articles": [
+    {
+      "title": "Age of AI Scrapers - Robots.txt",
+      "url": "https://www.linkedin.com/pulse/age-ai-scrapers-robotstxt-tony-honesto-m1h4c/"
+    }
+  ]
+}

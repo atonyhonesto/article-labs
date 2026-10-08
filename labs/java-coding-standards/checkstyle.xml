@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+  "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<!-- A small, opinionated rule set: the kind of issues SonarQube's Java rules flag as code smells and bugs. -->
+<module name="Checker">
+  <property name="severity" value="warning"/>
+  <module name="FileLength"><property name="max" value="400"/></module>
+  <module name="LineLength"><property name="max" value="120"/></module>
+  <module name="TreeWalker">
+    <!-- naming -->
+    <module name="TypeName"/>
+    <module name="MethodName"/>
+    <module name="ConstantName"/>
+    <module name="LocalVariableName"/>
+    <!-- imports -->
+    <module name="AvoidStarImport"/>
+    <module name="UnusedImports"/>
+    <!-- bug-prone -->
+    <module name="EmptyCatchBlock"/>
+    <module name="EqualsHashCode"/>
+    <module name="StringLiteralEquality"/>
+    <module name="MissingSwitchDefault"/>
+    <module name="FallThrough"/>
+    <module name="NeedBraces"/>
+    <!-- maintainability -->
+    <module name="MagicNumber">
+      <property name="ignoreNumbers" value="-1, 0, 1, 2"/>
+    </module>
+    <module name="MethodLength"><property name="max" value="40"/></module>
+    <module name="ParameterNumber"><property name="max" value="5"/></module>
+    <module name="CyclomaticComplexity"><property name="max" value="8"/></module>
+    <module name="VisibilityModifier"/>
+    <module name="FinalClass"/>
+    <module name="HideUtilityClassConstructor"/>
+    <!-- no System.out in library code: use a logger -->
+    <module name="RegexpSinglelineJava">
+      <property name="format" value="System\.(out|err)\.print"/>
+      <property name="ignoreComments" value="true"/>
+      <property name="message" value="Use a logger, not System.out/err"/>
+    </module>
+    <module name="SuppressionCommentFilter"/>
+  </module>
+</module>

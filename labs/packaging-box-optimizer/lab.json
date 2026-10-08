@@ -1,0 +1,15 @@
+{
+  "title": "packaging-box-optimizer",
+  "theme": "engineering-tools",
+  "stack": [
+    "Python"
+  ],
+  "runtime": "python",
+  "summary": "Right-sized boxes vs. a fixed carton catalog: corrugate, void fill and dimensional-weight savings over a day of orders",
+  "articles": [
+    {
+      "title": "AI-Enhanced On-Demand Packaging with Packsize",
+      "url": "https://www.linkedin.com/pulse/ai-enhanced-on-demand-packaging-packsize-tony-honesto-d6qmc/"
+    }
+  ]
+}

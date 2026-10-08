@@ -1,0 +1,20 @@
+{
+  "title": "wpf-mvvm",
+  "theme": "software-architecture",
+  "stack": [
+    "C#",
+    ".NET 10",
+    "WPF",
+    "MVVM",
+    "xUnit"
+  ],
+  "runtime": "dotnet",
+  "summary": "A WPF lap-timer app built MVVM-style: the view model is plain C# and unit-tested without a window",
+  "articles": [
+    {
+      "title": "Windows Desktop Applications with WPF",
+      "url": "https://www.linkedin.com/pulse/windows-desktop-applications-wpf-tony-honesto-h0kmc/"
+    }
+  ],
+  "os": "windows-latest"
+}

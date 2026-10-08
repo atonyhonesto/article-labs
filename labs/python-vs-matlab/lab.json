@@ -1,0 +1,22 @@
+{
+  "title": "python-vs-matlab",
+  "theme": "engineering-tools",
+  "stack": [
+    "Python",
+    "NumPy",
+    "SciPy",
+    "GNU Octave"
+  ],
+  "runtime": "python",
+  "summary": "The same signal-processing task in Python and MATLAB syntax, run side by side (Octave in CI) with matching results",
+  "articles": [
+    {
+      "title": "Python vs MATLAB",
+      "url": "https://www.linkedin.com/pulse/python-vs-matlab-tony-honesto-4bg9c/"
+    },
+    {
+      "title": "MathWorks - MATLAB Onramp - Interactive Introduction",
+      "url": "https://www.linkedin.com/pulse/matlab-onramp-free-interactive-introduction-tony-honesto-yg5pc/"
+    }
+  ]
+}

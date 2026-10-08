@@ -1,0 +1,10 @@
+# Blocks one AI crawler by an old name, lets search into the docs only
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Googlebot
+Allow: /docs/
+Disallow: /
+
+User-agent: *
+Disallow: /
