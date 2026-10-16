@@ -1,0 +1,2 @@
+# Include the handwritten SQLite medallion models in repository language statistics.
+labs/medallion-sql/sql/*.sql linguist-language=SQL linguist-detectable=true
